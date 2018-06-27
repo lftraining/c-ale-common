@@ -48,7 +48,7 @@
          };
          \node[anchor=south east] at
          ([xshift=-.75in,yshift=1.5in] current page.south east)
-         {\includegraphics[height=.75in]{linuxfoundation-cropped}};
+         {\includegraphics[height=.75in]{C-ALE}};
 
       \end{tikzpicture}
    }
@@ -78,7 +78,7 @@
          };
 
          \node[anchor=south west] at ([xshift=.75in,yshift=1.5in] current
-         page.south west) {\includegraphics[height=.75in]{linuxfoundation-cropped}};
+         page.south west) {\includegraphics[height=.75in]{C-ALE.png}};
 
       \end{tikzpicture}
    }

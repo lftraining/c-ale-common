@@ -21,7 +21,7 @@ outer=0.5in, inner=0.75in] {geometry}
 
 \newcommand{\lflogo}{
   \begin{flushright}
-    \includegraphics[scale=0.8]{linuxfoundation-cropped.png}
+    \includegraphics[scale=0.8]{C-ALE.png}
   \end{flushright}
 }
 %%%%%%%%%% Change the date format to 08/12/2014
@@ -173,7 +173,7 @@ outer=0.5in, inner=0.75in] {geometry}
 \fancyhead[LE]{\thepage} 
 \fancyhead[RO]{\thepage} 
 \fancyfoot[C]{\textbf{\calecopyright}}
-\fancyfoot[R]{\includegraphics[scale=0.25]{linuxfoundation-cropped}
+\fancyfoot[R]{\includegraphics[scale=0.25]{C-ALE}
 }
 \fancyfoot[L]{\textbf{\course: V\_\version by \speaker}}
 
@@ -301,7 +301,7 @@ linkcolor=Red}
                      \hspace{10pt}
                      \begin{center}
                         \begin{Huge}
-%% \includegraphics[scale=0.25]{linuxfoundation-cropped}
+%% \includegraphics[scale=0.25]{C-ALE}
                            \textbf{#1}
                         \end{Huge}
                      \end{center}
