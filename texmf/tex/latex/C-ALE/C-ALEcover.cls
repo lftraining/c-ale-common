@@ -1,12 +1,5 @@
-% 8 December 2012
-% Lian Tze LIM (liantze@gmail.com)
-%
-% LFcover.cls
-% Book cover class for the Linux Foundation's training manuals
-%
-% Extensively modify by Jerry Cooperstein 5/2013 for Developer classes
-% Modified again in 1/2014 to just do separate front and back covers
-% rewritten extensive in 2015 to unify book and slide covers
+%% prepared by Jerry Cooperstein at the Linux FOundation for use at C-ALE
+
 \ProvidesClass{LFcover}
 \LoadClass[17pt]{extarticle}
 \RequirePackage{tikz}
@@ -78,28 +71,10 @@
          width=\singlewidth-1.3in, align=flush left, anchor=north west] at
          ([xshift=.75in,yshift=-1.2in]current page.north west)
          {
-            \textbf{\color{LFDeepBlue}Train with
-               the Linux Experts}\par\medskip The
-            Linux Foundation has a mandate to
-            train the next generation of Linux
-            developers, architects and system
-            administrators. We have done this by
-            creating the most comprehensive and
-            advanced Linux training program, and
-            we have made it customizable to suit
-            your needs.\par\medskip If your use of
-            Linux is crucial to your business,
-            count on The Linux Foundation to
-            ensure your developers or IT staff
-            will get the most out of Linux. We
-            have helped hundreds of companies
-            either move to Linux or gain advanced
-            knowledge of the technology to give
-            their development or operations teams
-            a competitive advantage.\par\medskip
-            To learn more, or to enroll in an
-            upcoming Linux training course visit
-            \textbf{\color{LFDeepBlue}training.linuxfoundation.org}.\par
+            \textbf{\color{LFDeepBlue}
+            If we needed a back cover the text would go in here,
+            but we don't.
+            }
          };
 
          \node[anchor=south west] at ([xshift=.75in,yshift=1.5in] current

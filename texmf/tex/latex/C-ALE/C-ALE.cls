@@ -158,8 +158,8 @@ outer=0.5in, inner=0.75in] {geometry}
   \MakeFramed {\advance\hsize-2.5\leftmargin \FrameRestore}}
 {\endMakeFramed}
 
-\newcommand{\lfcopyright}{
-\textcopyright\  Copyright the Linux Foundation 2018.  All rights reserved.}
+\newcommand{\calecopyright}{
+\textcopyright\  Copyright  2018. [fill in more]  All rights reserved.}
 
 %%%%%%%%%%% header and footer crap
 %%%%%%   This must come after the pagesize dimensions are set
@@ -172,7 +172,7 @@ outer=0.5in, inner=0.75in] {geometry}
 \fancyhead[LO]{\textit{\rightmark}}
 \fancyhead[LE]{\thepage} 
 \fancyhead[RO]{\thepage} 
-\fancyfoot[C]{\textbf{\lfcopyright}}
+\fancyfoot[C]{\textbf{\calecopyright}}
 \fancyfoot[R]{\includegraphics[scale=0.25]{linuxfoundation-cropped}
 }
 \fancyfoot[L]{\textbf{\course: V\_\version by \speaker}}
@@ -200,12 +200,12 @@ linkcolor=Red}
       \course: Version \version
     }
     \par
-    \textbf{\lfcopyright}
+    \textbf{\calecopyright}
 
     \pagebreak
     \input{longcopyright}
 
-%%    \lfcopyrighttext
+%%    \calecopyrighttext
   \end{titlepage}
   \tablestuff
   \mainmatter
